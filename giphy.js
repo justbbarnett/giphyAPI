@@ -65,8 +65,8 @@ function displayAnimals () {
 function toggleGifs () { //toggle gifs tis set to iccur when the "animal-giphy" div is clicked
 
     console.log ( $(this).data() );
-    console.log ( $(this).attr("data-state") ); //should be "Still" for the onload
-    console.log ( $(this).data("state")); //just seeing if this would return the same value :)
+    console.log ( $(this).attr("data-state") + "   - attr - 'data-state'"); //should be "Still" for the onload, never changes
+    console.log ( $(this).data("state")  + "   - data - 'state'"); //data state that changes
 
     var currentState = $(this).data("state");
     console.log (currentState)
