@@ -18,7 +18,7 @@ function displayAnimals () {
 
     //create the queryURL for the API
     var apiKey = "&api_key=2Kg0Qjt1YynUKJQvECMo5cVQZxn2NRbb"
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&rating=pg" + apiKey
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&limit=10&rating=pg" + apiKey
     console.log(queryURL);
 
     //call data and retrive "response" from the API
