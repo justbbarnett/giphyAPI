@@ -1,0 +1,14 @@
+.jumbo-giphy {
+    background: url(images/tiedie.jpeg) center no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.btn {
+    margin: 1px;
+}
+
+.animal-giphy {
+    margin: 3px;
+    display: inline-block;
+}
