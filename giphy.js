@@ -102,7 +102,7 @@ function animalButtons () {
     }
 }
 
-$("#animal-submit").on("click", function(event) {
+$("#animal-form").on("submit", function(event) {
     console.log(event);
     event.preventDefault();
     // This line grabs the input from the textbox
